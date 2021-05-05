@@ -140,5 +140,9 @@ REST_FRAMEWORK = {
     ]
 }
 
+
+# CORS
+# https://github.com/adamchainz/django-cors-headers
+
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_URLS_REGEX = r'^/api/.*$'
